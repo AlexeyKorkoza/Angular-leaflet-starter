@@ -1,0 +1,27 @@
+{
+  "name": "angular-leaflet-starter",
+  "version": "1.0.0",
+  "description": "Example of work is with leaflet using AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyKorkoza/Angular-leaflet-starter.git"
+  },
+  "keywords": [
+    "angular",
+    "leaflet"
+  ],
+  "author": "Alexey Korkoza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexeyKorkoza/Angular-leaflet-starter/issues"
+  },
+  "homepage": "https://github.com/AlexeyKorkoza/Angular-leaflet-starter#readme",
+  "dependencies": {
+    "leaflet": "^1.0.3",
+    "ui-leaflet": "^1.0.3"
+  }
+}
