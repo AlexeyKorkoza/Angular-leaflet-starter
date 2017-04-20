@@ -10,6 +10,7 @@ function mainController(mainService) {
 
   var vm = this;
   vm.activate = activate;
+  vm.group_markers = [];
 
   activate();
 
@@ -40,6 +41,7 @@ function mainController(mainService) {
           lng: lng,
           focus: false,
           draggable: false,
+          group: 'vm.group_markers',
           message: '<b>"' +
           item.name_place +
           '",</b> ' +

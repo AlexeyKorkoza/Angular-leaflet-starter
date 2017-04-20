@@ -19,12 +19,14 @@ var jsFiles = [
   'node_modules/leaflet/dist/leaflet.js',
   'node_modules/angular-simple-logger/dist/angular-simple-logger.min.js',
   'node_modules/ui-leaflet/dist/ui-leaflet.min.js',
+  'node_modules/leaflet.markercluster/dist/leaflet.markercluster.js',
   'app/*.js'
 ];
 
 var cssFiles = [
   'node_modules/leaflet/dist/leaflet.css',
   'node_modules/bootstrap/dist/css/bootstrap.min.css',
+  'node_modules/leaflet.markercluster/dist/*.css',
   'style.css'
 ];
 
