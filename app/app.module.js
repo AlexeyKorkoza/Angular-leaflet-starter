@@ -1,3 +1,7 @@
-/**
- * Created by Alexey on 19.04.2017.
- */
+"use strict";
+
+angular
+  .module("app", [
+    'nemLogging',
+    'ui-leaflet'
+  ]);
