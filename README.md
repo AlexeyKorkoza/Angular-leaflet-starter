@@ -5,7 +5,8 @@ Test application for work map of leaflet
 
 ```
 1. git clone https://github.com/AlexeyKorkoza/Angular-leaflet-starter.git
-2. gulp
+2. npm install
+3. gulp
 ```
 
 ## Built With
