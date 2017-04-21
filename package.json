@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/AlexeyKorkoza/Angular-leaflet-starter#readme",
   "dependencies": {
-    "angular": "^1.4.14",
+    "angular": "1.4.14",
     "angular-simple-logger": "^0.1.7",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
