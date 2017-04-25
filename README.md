@@ -12,3 +12,7 @@ Test application for work map of leaflet
 ## Built With
 
 * [ui-leaflet](https://github.com/angular-ui/ui-leaflet) - AngularJS directive for the Leaflet Javascript Library
+
+## Note. How install branch from the Github
+
+* npm install https://github.com/angular-ui/ui-leaflet.git#leaflet-1.X --save 
