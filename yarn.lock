@@ -40,7 +40,7 @@ ajv@^4.9.1:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-angular-simple-logger@^0.1.7, angular-simple-logger@~0.1.4:
+angular-simple-logger@0.1.x, angular-simple-logger@^0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/angular-simple-logger/-/angular-simple-logger-0.1.7.tgz#4ae48e5eac0973f577845918e56d4933cf66f041"
   dependencies:
@@ -848,8 +848,8 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
     rimraf "2"
 
 gauge@~2.7.1:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.3.tgz#1c23855f962f17b3ad3d0dc7443f304542edfe09"
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
   dependencies:
     aproba "^1.0.3"
     console-control-strings "^1.0.0"
@@ -1214,7 +1214,7 @@ is-binary-path@^1.0.0:
   dependencies:
     binary-extensions "^1.0.0"
 
-is-buffer@^1.0.2:
+is-buffer@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.5.tgz#1f3b26ef613b214b88cbca23cc6c01d87961eecc"
 
@@ -1406,10 +1406,10 @@ jsprim@^1.2.2:
     verror "1.3.6"
 
 kind-of@^3.0.2:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.1.0.tgz#475d698a5e49ff5e53d14e3e732429dc8bf4cf47"
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.0.tgz#b58abe4d5c044ad33726a8c1525b48cf891bff07"
   dependencies:
-    is-buffer "^1.0.2"
+    is-buffer "^1.1.5"
 
 klaw@^1.0.0:
   version "1.3.1"
@@ -1427,9 +1427,9 @@ leaflet.markercluster@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/leaflet.markercluster/-/leaflet.markercluster-1.0.4.tgz#d3f85fe7412723e2daa27634dc5ed9c45152757c"
 
-leaflet@0.7.x:
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-0.7.7.tgz#1e352ba54e63d076451fa363c900890cb2cf75ee"
+leaflet@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.0.0.tgz#7778bdde12c760d611ee235ce9a77419653fc369"
 
 leaflet@^1.0.2:
   version "1.0.3"
@@ -1998,13 +1998,13 @@ qs@6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.2.1.tgz#ce03c5ff0935bc1d9d69a9f14cbd18e568d67625"
 
-"qs@>= 0.4.0", qs@~6.3.0:
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
-
-qs@~6.4.0:
+"qs@>= 0.4.0", qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
+
+qs@~6.3.0:
+  version "6.3.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
 
 randomatic@^1.1.3:
   version "1.1.6"
@@ -2517,13 +2517,13 @@ ua-parser-js@0.7.12:
   version "0.7.12"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
 
-ui-leaflet@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/ui-leaflet/-/ui-leaflet-1.0.3.tgz#bea43c6ac0eb8c468483cf72c5cefc34c7a37cf3"
+"ui-leaflet@git+https://github.com/angular-ui/ui-leaflet.git#leaflet-1.X":
+  version "3.0.0"
+  resolved "git+https://github.com/angular-ui/ui-leaflet.git#3abb2f38b17bcf2d49d6eb976558b2cd804a36bb"
   dependencies:
     angular "1.x"
-    angular-simple-logger "~0.1.4"
-    leaflet "0.7.x"
+    angular-simple-logger "0.1.x"
+    leaflet "1.0.0"
 
 uid-number@^0.0.6:
   version "0.0.6"

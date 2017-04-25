@@ -30,6 +30,6 @@
     "gulp-concat": "^2.6.1",
     "leaflet": "^1.0.2",
     "leaflet.markercluster": "^1.0.4",
-    "ui-leaflet": "^1.0.3"
+    "ui-leaflet": "git+https://github.com/angular-ui/ui-leaflet.git#leaflet-1.X"
   }
 }
